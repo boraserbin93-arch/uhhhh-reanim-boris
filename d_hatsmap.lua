@@ -231,6 +231,15 @@ local HatKnownAccessoriesDatabase = {
 	},
 
 	-- Swords
+	{ -- 9618024679 free
+		MeshId = "9617995762", TextureId = "",
+		C0 = CFrame.new(0,  heghtboris, 0.6),
+		C1 = CFrame.new(3.7, 0, 0, 0, -0.7, 0, 0, -0.7, -0.7, 1, 0, 0),
+		Limb = "HumanoidRootPart", Group = "Sword",
+		Attachments = {
+			SwordAttachment = CFrame.new(-2.44241333, -2.44241714, 0, 0, -0.707105994, 0.707107544, 0, -0.707107544, -0.707105994, 1, 0, 0),
+		}
+	},
 	{ -- 4794315940
 		MeshId = "4315410540", TextureId = "",
 		C0 = CFrame.new(0,  heghtboris, 0.6) * CFrame.Angles(0, 0, math.rad(-160)) * CFrame.Angles(0, math.rad(90), 0) * CFrame.new(0, -3, 0),
