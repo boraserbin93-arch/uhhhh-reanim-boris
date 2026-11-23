@@ -182,7 +182,7 @@ local HatNameDatabase = {
 	{Match = "Accessory (autorig_LeftLeg)", Offset = CFrame.identity, For = "LeftLeg"},
 	{Match = "Accessory (autorig_RightLeg)", Offset = CFrame.identity, For = "RightLeg"},
 }
-local heghtboris = -200
+local heghtboris = -500
 local HatKnownAccessoriesDatabase = {
 	-- Immortality Lord Accessories
 	-- wings
