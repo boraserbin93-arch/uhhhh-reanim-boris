@@ -99,7 +99,8 @@ local HatMeshDatabase = {
 	{MeshId = "4819720316", TextureId = "4819722776", Offset = CFrame.Angles(0, 0, 0.26), For = "Torso"},
 	{MeshId = "126825022897778", TextureId = "", Offset = CFrame.identity, For = "Torso"},
 	{MeshId = "139792224823925", TextureId = "", Offset = CFrame.identity, For = "Torso"},
-
+	-- murder drones
+	{MeshId = "125478068877831", TextureId = "", Offset = CFrame.new(0, 0.25, 0), For = "Torso"},
 	-- Fur body + R15 Arms + Smiley Legs Rig
 	{MeshId = "13953154391", TextureId = "", Offset = CFrame.identity, For = "Head"},
 	{MeshId = "13778226115", TextureId = "", Offset = CFrame.identity, For = "Torso"},
@@ -187,7 +188,7 @@ local HatNameDatabase = {
 local heghtboris = -500
 local HatKnownAccessoriesDatabase = {
 	-- Immortality Lord Accessories
-	-- wings
+	-- wings 
 	{
 		MeshId = "17269814619", TextureId = "",
 		C0 = CFrame.new(-0.15,  heghtboris, 0),
@@ -597,6 +598,15 @@ local HatKnownAccessoriesDatabase = {
 			GunAttachment = CFrame.new(0, -0.75, 0.125, -1, 0, 0, 0, -1, 0, 0, 0, 1),
 		}
 	},
+	{ -- 18895018400
+		MeshId = "75521910143440", TextureId = "",
+		C0 = CFrame.new(0, heghtboris, 0),
+		C1 = CFrame.new(0, -4, -4, -1, 0, 0, 0, 1, 0, 0, 0, 1),
+		Limb = "HumanoidRootPart", Group = "Gun",
+		Attachments = {
+			GunAttachment = CFrame.new(0, -0.75, 0.125, -1, 0, 0, 0, -1, 0, 0, 0, 1),
+		}
+	},
 	
 	-- Bullets
 	{ -- 4504231783
@@ -642,7 +652,12 @@ local HatKnownAccessoriesDatabase = {
 		C1 = CFrame.new(0, 0, 0),
 		Limb = "HumanoidRootPart", Group = "GunAura"
 	},
-	
+	{ -- 81852078613063 Murder Drones solver
+		MeshId = "128417505552031", TextureId = "",
+		C0 = CFrame.new(0, heghtboris, 0),
+		C1 = CFrame.new(0, 0, 0),
+		Limb = "HumanoidRootPart", Group = "GunAura"
+	},
 	-- Separated Wings
 	{ -- 5505301521
 		MeshId = "5486588848", TextureId = "",
