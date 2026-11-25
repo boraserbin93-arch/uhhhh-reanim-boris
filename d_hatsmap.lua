@@ -657,6 +657,12 @@ local HatKnownAccessoriesDatabase = {
 		C1 = CFrame.new(0, 0, 0),
 		Limb = "HumanoidRootPart", Group = "GunAura"
 	},
+	{ -- 121357521551560
+		MeshId = "96015493056326", TextureId = "",
+		C0 = CFrame.new(0, heghtboris, 0),
+		C1 = CFrame.new(0, 0, 0),
+		Limb = "HumanoidRootPart", Group = "GunAura"
+	},
 	{ -- 6909069901 free
 		MeshId = "6881006670", TextureId = "",
 		C0 = CFrame.new(0, heghtboris, 0),
