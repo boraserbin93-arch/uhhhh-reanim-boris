@@ -160,6 +160,8 @@ local HatMeshDatabase = {
 	{MeshId = "136378854630150", TextureId = "", Offset = CFrame.Angles(0, 3.14, 0), For = "RightArm"},
 	{MeshId = "18989397242", TextureId = "", Offset = CFrame.Angles(0, 3.14, 0), For = "LeftArm"},
 	{MeshId = "119861389229755", TextureId = "", Offset = CFrame.identity, For = "Torso"},
+	{MeshId = "71855239988337", TextureId = "", Offset = CFrame.identity, For = "LeftArm"},
+	{MeshId = "71855239988337", TextureId = "", Offset = CFrame.identity, For = "RightArm"},
 }
 local HatNameDatabase = {
 	{Match = "Accessory (LARM)", Offset = CFrame.Angles(0, 0, 1.57), For = "LeftArm"},
@@ -391,6 +393,15 @@ local HatKnownAccessoriesDatabase = {
 		MeshId = "76880052752134", TextureId = "",
 		C0 = CFrame.new(-0.475349,  heghtboris, 0.5, 0.0262082, 0.299562, -0.953717, -0.0831219, -0.950088, -0.300706, -0.996195, 0.0871557, 0),
 		C1 = CFrame.new(-0.475349, 1.50762, -0.1383, 0.0262082, 0.299562, -0.953717, -0.0831219, -0.950088, -0.300706, -0.996195, 0.0871557, 0),
+		Limb = "HumanoidRootPart", Group = "Sword",
+		Attachments = {
+			SwordAttachment = CFrame.new(0.93079, -2.35394, 0.220899, 0.0262081, 0.299562, -0.953717, -0.083122, -0.950088, -0.300707, -0.996195, 0.0871558, 0),
+		}
+	},
+	{ -- 72576073463029
+		MeshId = "122869545683930", TextureId = "",
+		C0 = CFrame.new(-0.475349,  heghtboris, 0.5, 0.0262082, 0.299562, -0.953717, -0.0831219, -0.950088, -0.300706, -0.996195, 0.0871557, 0),
+		C1 = CFrame.new(2, -3.8, -0.1, 0.0262082, 0.299562, -0.953717, -0.0831219, 0.950088, -0.300706, -0.996195, 0.0871557, 0),
 		Limb = "HumanoidRootPart", Group = "Sword",
 		Attachments = {
 			SwordAttachment = CFrame.new(0.93079, -2.35394, 0.220899, 0.0262081, 0.299562, -0.953717, -0.083122, -0.950088, -0.300707, -0.996195, 0.0871558, 0),
