@@ -162,6 +162,8 @@ local HatMeshDatabase = {
 	{MeshId = "119861389229755", TextureId = "", Offset = CFrame.identity, For = "Torso"},
 	{MeshId = "71855239988337", TextureId = "", Offset = CFrame.identity, For = "LeftArm"},
 	{MeshId = "71855239988337", TextureId = "", Offset = CFrame.identity, For = "RightArm"},
+	{MeshId = "70919434444459", TextureId = "", Offset = CFrame.identity, For = "LeftLeg"},
+	{MeshId = "108897842544850", TextureId = "", Offset = CFrame.identity, For = "RightLeg"},
 }
 local HatNameDatabase = {
 	{Match = "Accessory (LARM)", Offset = CFrame.Angles(0, 0, 1.57), For = "LeftArm"},
